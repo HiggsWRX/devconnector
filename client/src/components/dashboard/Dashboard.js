@@ -24,6 +24,7 @@ const Dashboard = ({ getCurrentProfile, auth: { user }, profile: { profile, load
     </Fragment> ;
 }
 
+
 Dashboard.propTypes = {
     getCurrentProfile: PropTypes.func.isRequired,
     auth: PropTypes.object.isRequired,
